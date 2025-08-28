@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Oleo+Script:wght@400;700&display=swap");
+@import 'tailwindcss';
+
+/* Preline UI */
+@import "../../node_modules/preline/variants.css";
+@source "../../node_modules/preline/dist/*.js";
+
+/* Plugins */
+@plugin "@tailwindcss/forms";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --color-main-100: #fffcfb;
+    --color-main-200: #fff8f6;
+    --color-main-300: #ffeae6;
+    --color-main-400: #ffdad2;
+    --color-main-500: #ffcac0;
+    --color-main-600: #ffb9ad;
+    --color-main-700: #fda496;
+    --color-main-800: #f68878;
+    --color-main-900: #f13223;
+
+    --color-indicator: #f13223;
+    --color-solid: #e41307;
+    --color-accessible: #ff290019;
+    --color-surface: #f1f0f0;
+    --color-contrast: #fff;
+    --color-dark: #303030;
+
+    --font-oleo: "Oleo Script", cursive;
+    --font-martel: "Martel Sans", ui-sans-serif, system-ui, sans-serif;
+    --font-cormorant: "Cormorant Infant", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-sans: 'Cormorant Infant', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@layer base {
+
+    button:not(:disabled),
+    [role="button"]:not(:disabled) {
+        cursor: pointer;
+    }
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
