@@ -14,16 +14,16 @@ class DaySeeder extends Seeder
     {
         $data = [
             [
-                'day_name' => 'Sunday'
+                'day_name' => 'sunday'
             ],
             [
-                'day_name' => 'Monday'
+                'day_name' => 'monday'
             ],
             [
-                'day_name' => 'Tuesday'
+                'day_name' => 'tuesday'
             ],
             [
-                'day_name' => 'Wednesday'
+                'day_name' => 'wednesday'
             ],
             [
                 'day_name' => 'thursday'
@@ -36,6 +36,6 @@ class DaySeeder extends Seeder
             ],
         ];
 
-        Day::insertBatch($data);
+        Day::insert($data);
     }
 }

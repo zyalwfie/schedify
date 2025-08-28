@@ -28,7 +28,7 @@
         </script>
     </head>
 
-    <body>
+    <body class="dark:bg-dark">
         <x-navbar />
 
         {{ $slot }}

@@ -2,7 +2,7 @@
     <nav class="mx-auto w-full max-w-[85rem] px-4 sm:flex sm:items-center sm:justify-between">
         <div class="flex items-center justify-between">
             <a class="focus:outline-hidden flex-none text-xl font-semibold focus:opacity-80 dark:text-white"
-                href="#" aria-label="Brand">
+                href="{{ route('main') }}" aria-label="Brand">
                 <span
                     class="font-oleo text-solid inline-flex items-center gap-x-2 text-2xl font-semibold dark:text-white">
                     Schedify
@@ -46,7 +46,7 @@
                     </span>
                 </button>
                 <button type="button"
-                    class="hs-dark-mode-active:block hs-dark-mode focus:outline-hidden hidden rounded-full font-medium text-gray-800 hover:bg-gray-200 focus:bg-gray-200 dark:text-neutral-200 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                    class="hs-dark-mode-active:block hs-dark-mode focus:outline-hidden hidden rounded-full font-medium text-gray-800 hover:bg-gray-200 focus:bg-gray-200 dark:text-neutral-200 dark:hover:bg-neutral-600 dark:focus:bg-neutral-800"
                     data-hs-theme-click-value="light">
                     <span class="group inline-flex size-9 shrink-0 items-center justify-center">
                         <svg class="size-4 shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
