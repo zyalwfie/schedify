@@ -15,16 +15,16 @@
                         <div class="mb-2 flex items-center gap-4">
                             <div class="flex items-center gap-1">
                                 <span
-                                    class="shadow-2xs inline-flex items-center gap-x-1.5 rounded-md border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-800 dark:border-neutral-700 dark:bg-neutral-900 dark:text-white">
-                                    {{ $course->start_time }}
+                                    class="shadow-2xs inline-flex items-center gap-x-1.5 rounded-md border border-gray-200 bg-white px-3 py-1.5 text-xs font-bold text-gray-800 dark:border-neutral-700 dark:bg-neutral-900 dark:text-white">
+                                    {{ $course->start_time }} WITA
                                 </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                                     viewBox="0 0 24 24" class="text-gray-500">
                                     <path d="M6 13h6v4l6-5-6-5v4H6z"></path>
                                 </svg>
                                 <span
-                                    class="shadow-2xs inline-flex items-center gap-x-1.5 rounded-md border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-800 dark:border-neutral-700 dark:bg-neutral-900 dark:text-white">
-                                    {{ $course->end_time }}
+                                    class="shadow-2xs inline-flex items-center gap-x-1.5 rounded-md border border-gray-200 bg-white px-3 py-1.5 text-xs font-bold text-gray-800 dark:border-neutral-700 dark:bg-neutral-900 dark:text-white">
+                                    {{ $course->end_time }} WITA
                                 </span>
                             </div>
                             <span>|</span>
@@ -41,13 +41,13 @@
                             </span>
                         </div>
                         <h3 class="font-martel mb-2 text-lg font-bold text-gray-800 dark:text-white">
-                            {{ $course->course_name }} | {{ $course->semester->semester_number }}
+                            {{ $course->course_name }}
                         </h3>
                         <div class="flex flex-wrap items-center gap-2">
                             @foreach ($course->lectures as $lecture)
                                 <div>
                                     <span
-                                        class="bg-main-300 text-indicator dark:bg-main-500/10 inline-flex items-center gap-x-1 rounded-full px-1.5 py-1 text-xs font-medium">
+                                        class="bg-main-300 text-indicator dark:bg-main-500/10 inline-flex items-center gap-x-1 rounded-full px-1.5 py-1 text-xs font-bold">
                                         <svg class="size-3 shrink-0" xmlns="http://www.w3.org/2000/svg" width="24"
                                             height="24" fill="currentColor" viewBox="0 0 24 24">
                                             <path
