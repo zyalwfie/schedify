@@ -16,7 +16,11 @@ return new class extends Migration
             $table->string('course_name');
             $table->boolean('is_mandatory_interest')->default(false);
             $table->integer('course_credit')->default(2);
-            $table->foreignId('semester_id')->constrained();
+            $table->foreignId('day_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('semester_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('room_id')->constrained()->cascadeOnDelete();
+            $table->time('start_time');
+            $table->time('end_time');
         });
     }
 

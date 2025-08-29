@@ -16,9 +16,9 @@ class DatabaseSeeder extends Seeder
         $this->call([
             DaySeeder::class,
             SemesterSeeder::class,
-            CourseSeeder::class,
+            LectureSeeder::class,
             RoomSeeder::class,
-            LectureSeeder::class
+            CourseSeeder::class,
         ]);
     }
 }

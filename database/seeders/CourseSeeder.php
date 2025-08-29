@@ -18,85 +18,141 @@ class CourseSeeder extends Seeder
                 'course_name' => 'Topik Khusus Agribisnis',
                 'is_mandatory_interest' => true,
                 'course_credit' => 3,
-                'semester_id' => 2
+                'day_id' => 2,
+                'semester_id' => 2,
+                'room_id' => 1,
+                'start_time' => '12:50',
+                'end_time' => '14:30'
             ],
             [
                 'course_name' => 'Topik Khusus Teknik Budaya',
                 'is_mandatory_interest' => true,
                 'course_credit' => 3,
-                'semester_id' => 2
+                'day_id' => 2,
+                'semester_id' => 2,
+                'room_id' => 2,
+                'start_time' => '12:50',
+                'end_time' => '14:30'
             ],
             [
                 'course_name' => 'Ilmu Filasafat',
                 'is_mandatory_interest' => false,
                 'course_credit' => 2,
-                'semester_id' => 1
+                'day_id' => 2,
+                'semester_id' => 1,
+                'room_id' => 1,
+                'start_time' => '14:30',
+                'end_time' => '16:10'
             ],
             [
                 'course_name' => 'Budidaya Tanaman Lahan Kering',
                 'is_mandatory_interest' => true,
                 'course_credit' => 3,
-                'semester_id' => 1
+                'day_id' => 3,
+                'semester_id' => 1,
+                'room_id' => 1,
+                'start_time' => '12:50',
+                'end_time' => '14:30'
             ],
             [
                 'course_name' => 'Pengelolaan Sumber Daya Lahan Kering Pulau-pulau kecil',
                 'is_mandatory_interest' => false,
                 'course_credit' => 4,
-                'semester_id' => 1
+                'day_id' => 3,
+                'semester_id' => 1,
+                'room_id' => 2,
+                'start_time' => '12:50',
+                'end_time' => '14:30'
             ],
             [
                 'course_name' => 'Pengelolaan Sumber Daya Lahan Kering',
                 'is_mandatory_interest' => true,
                 'course_credit' => 3,
-                'semester_id' => 2
+                'day_id' => 3,
+                'semester_id' => 2,
+                'room_id' => 2,
+                'start_time' => '12:50',
+                'end_time' => '14:30'
             ],
             [
                 'course_name' => 'Sistem Pertanian Lahan Kering',
                 'is_mandatory_interest' => true,
                 'course_credit' => 3,
-                'semester_id' => 2
+                'day_id' => 3,
+                'semester_id' => 2,
+                'room_id' => 1,
+                'start_time' => '14:30',
+                'end_time' => '16:10'
             ],
             [
                 'course_name' => 'Pengelolaan OPT (Organisme Pengganggu Tanaman) Terpadu',
                 'is_mandatory_interest' => false,
                 'course_credit' => 4,
-                'semester_id' => 1
+                'day_id' => 4,
+                'semester_id' => 1,
+                'room_id' => 1,
+                'start_time' => '12:50',
+                'end_time' => '14:30'
             ],
             [
                 'course_name' => 'Pemuliaan Tanaman Lahan Kekeringan',
                 'is_mandatory_interest' => true,
                 'course_credit' => 3,
-                'semester_id' => 2
+                'day_id' => 4,
+                'semester_id' => 2,
+                'room_id' => 2,
+                'start_time' => '12:50',
+                'end_time' => '14:30'
             ],
             [
                 'course_name' => 'Manajemen Agribisnis Lahan Kering',
                 'is_mandatory_interest' => false,
                 'course_credit' => 4,
-                'semester_id' => 1
+                'day_id' => 4,
+                'semester_id' => 1,
+                'room_id' => 1,
+                'start_time' => '14:30',
+                'end_time' => '16:10'
             ],
             [
                 'course_name' => 'Manajemen Agribisnis',
                 'is_mandatory_interest' => true,
                 'course_credit' => 3,
-                'semester_id' => 2
+                'day_id' => 4,
+                'semester_id' => 2,
+                'room_id' => 3,
+                'start_time' => '14:10',
+                'end_time' => '16:10'
             ],
             [
                 'course_name' => 'Ekofisiologi Tanaman Lahan Kering',
                 'is_mandatory_interest' => false,
                 'course_credit' => 4,
-                'semester_id' => 1
+                'day_id' => 5,
+                'semester_id' => 1,
+                'room_id' => 1,
+                'start_time' => '12:50',
+                'end_time' => '14:30'
             ],
             [
                 'course_name' => 'Metodologi Penelitian',
                 'is_mandatory_interest' => false,
                 'course_credit' => 4,
-                'semester_id' => 1
+                'day_id' => 5,
+                'semester_id' => 1,
+                'room_id' => 2,
+                'start_time' => '14:30',
+                'end_time' => '16:10'
             ],
             [
                 'course_name' => 'Praktikum Metodologi Penelitian',
                 'is_mandatory_interest' => false,
                 'course_credit' => 1,
-                'semester_id' => 1
+                'day_id' => 2,
+                'semester_id' => 1,
+                'room_id' => 2,
+                'start_time' => '12:50',
+                'end_time' => '14:30'
             ],
         ];
 
