@@ -26,6 +26,8 @@
             else if (isDarkOrAuto && !html.classList.contains('dark')) html.classList.add('dark');
             else if (isLightOrAuto && !html.classList.contains('light')) html.classList.add('light');
         </script>
+
+        @stack('head_css')
     </head>
 
     <body class="dark:bg-dark">

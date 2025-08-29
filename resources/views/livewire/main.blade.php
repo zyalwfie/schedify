@@ -3,10 +3,17 @@
         <div
             class="shadow-2xs flex flex-col rounded-xl border border-gray-200 bg-white dark:border-neutral-700 dark:bg-neutral-900 dark:shadow-neutral-700/70">
             <div
-                class="rounded-t-xl border-b border-gray-200 bg-gray-100 px-4 py-3 md:px-5 md:py-4 dark:border-neutral-700 dark:bg-neutral-900">
+                class="flex items-center justify-between rounded-t-xl border-b border-gray-200 bg-gray-100 px-4 py-3 md:px-5 md:py-4 dark:border-neutral-700 dark:bg-neutral-900">
                 <p class="font-oleo mt-1 capitalize text-gray-500 dark:text-neutral-500">
                     {{ $day->day_name }}
                 </p>
+                @if ($day->is_today)
+                    <span
+                        class="animate-pulse inline-flex items-center gap-x-1.5 rounded-full bg-main-100 px-3 py-1.5 text-xs font-medium text-main-800 dark:bg-main-800/30 dark:text-main-500">
+                        <span class="inline-block size-1.5 rounded-full bg-main-800 dark:bg-main-500"></span>
+                        Today
+                    </span>
+                @endif
             </div>
             <div class="p-4 md:p-5">
                 @forelse ($day->courses as $course)
@@ -18,8 +25,8 @@
                                     class="shadow-2xs inline-flex items-center gap-x-1.5 rounded-md border border-gray-200 bg-white px-3 py-1.5 text-xs font-bold text-gray-800 dark:border-neutral-700 dark:bg-neutral-900 dark:text-white">
                                     {{ $course->start_time }} WITA
                                 </span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                                    viewBox="0 0 24 24" class="text-gray-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    fill="currentColor" viewBox="0 0 24 24" class="text-gray-500">
                                     <path d="M6 13h6v4l6-5-6-5v4H6z"></path>
                                 </svg>
                                 <span

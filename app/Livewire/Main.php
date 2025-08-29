@@ -2,7 +2,6 @@
 
 namespace App\Livewire;
 
-use App\Models\Course;
 use App\Models\Day;
 use Livewire\Component;
 use Livewire\Attributes\Title;
