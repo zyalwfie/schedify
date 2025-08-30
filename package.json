@@ -16,6 +16,7 @@
         "vite": "^7.0.4"
     },
     "dependencies": {
-        "preline": "^3.2.3"
+        "preline": "^3.2.3",
+        "vercel-php": "^0.7.4"
     }
 }
