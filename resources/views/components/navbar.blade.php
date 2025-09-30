@@ -37,7 +37,7 @@
         <div id="hs-navbar-alignment"
             class="hs-collapse overflow-hidden transition-all duration-300 order-2 block grow-0 basis-auto"
             aria-labelledby="hs-navbar-alignment-collapse">
-            <div class="font-martel font-bold underline underline-offset-4">
+            <div class="font-martel dark:text-white font-bold underline underline-offset-4">
                 {{ now()->format('l, d M Y') }}
             </div>
         </div>
